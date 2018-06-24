@@ -50,9 +50,9 @@ BR2_ZCAT="gzip -d -c"
 BR2_BZCAT="bzcat"
 BR2_XZCAT="xzcat"
 BR2_TAR_OPTIONS=""
-BR2_DL_DIR="$(BUILDROOT_TOPDIR:-$PWD)/source"
-BR2_HOST_DIR="$(BUILDROOT_OUTDIR:-/tmp)/host"
-BR2_STAGING_DIR="$(BUILDROOT_OUTDIR:-/tmp)/mipsel-linux-2.6.36-glibc-4.5.3"
+BR2_DL_DIR="$(TOPDIR)/dl_save"
+BR2_HOST_DIR="$(BASE_DIR)/host"
+BR2_STAGING_DIR="/projects/hnd/tools/linux/hndtools-mipsel-linux-2.6.36-glibc-4.5.3"
 
 #
 # Mirrors and Download locations
