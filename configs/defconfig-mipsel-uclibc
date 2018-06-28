@@ -52,7 +52,7 @@ BR2_XZCAT="xzcat"
 BR2_TAR_OPTIONS=""
 BR2_DL_DIR="$(TOPDIR)/dl_save"
 BR2_HOST_DIR="$(BASE_DIR)/host"
-BR2_STAGING_DIR="/projects/hnd/tools/linux/hndtools-mipsel-linux-2.6.36-uclibc-4.5.3"
+BR2_STAGING_DIR="$(BASE_DIR)/mipsel-linux-2.6.36-uclibc-4.5.3"
 
 #
 # Mirrors and Download locations
