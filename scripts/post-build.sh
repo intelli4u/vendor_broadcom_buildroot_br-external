@@ -39,7 +39,6 @@ remove_force \
     share/doc \
     share/gcc-4.5.3 \
     share/info \
-    share/libtool/libltdl \
     share/locale \
     share/man
 
